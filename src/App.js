@@ -18,7 +18,7 @@ function AplikasiLava() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const address = '0xf89d7b9c864f589bbF53a82105107622B35EaA40';
+        const address = '0x3328F7f4A1D1C57c35df56bBf0c9dCAFCA309C49';
         const balance = await web3.eth.getBalance(address);
         const blockNumber = await web3.eth.getBlockNumber();
         const chainIdHex = await web3.eth.getChainId();
